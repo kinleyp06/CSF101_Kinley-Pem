@@ -2,10 +2,10 @@ def greet():
     print("Hello, World!")
 
 greet()
-def greet(name):
-    print(f"Hello, {name}!")
+def greet(kp):
+    print(f"Hello, {kp}!")
 
-greet("Alice")
+greet("kinley")
 def square(number):
     return number ** 2
 
