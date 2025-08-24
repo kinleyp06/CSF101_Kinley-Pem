@@ -1,0 +1,33 @@
+# Iterative Fibonacci function
+#fibonacci 0 1 1 2 3 5 8 13 21
+def fibonacci_iterative(n):
+    """
+    This function calculates the nth Fibonacci number using iteration (loop).
+    It avoids recursion by using variables to store previous results.
+    """
+    if n == 0:  
+        return 0
+    elif n == 1:
+        return 1
+    
+    # Start with first two Fibonacci numbers
+    a, b = 0, 1
+
+    #The Fibonacci sequence is a series of numbers in which each number is the sum of the two numbers before it.
+    # It usually starts with:
+    #f(0)=0,F(1)=1
+
+    #Then the rule is:
+    # F(n)=F(n−1)+F(n−2)for n≥2
+    # Loop from 2 to n
+    for i in range(2, n + 1):
+        c = a + b  # Next Fibonacci number
+        a = b      # Move forward in sequence
+        b = c
+    
+    return b
+
+
+# Example
+num = 6
+print(f"Iterative: Fibonacci({num}) =", fibonacci_iterative(num))
