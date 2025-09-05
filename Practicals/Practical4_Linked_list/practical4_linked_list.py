@@ -70,17 +70,16 @@ class Linkedlist:
         self.head = prev
 
 ll = Linkedlist()
+
 ll.append(1)
 ll.append(2)
 ll.append(3)
-ll.insert(4, 1)
-ll.display()
-ll.delete(2) 
-ll.display() 
-print(ll.search(4))
-print(ll.search(5))
-ll.reverse()
-ll.display()
+ll.display()  # Output: 1 -> 2 -> 3
 
+ll.insert(4, 1)
+ll.display()  # Output: 1 -> 4 -> 2 -> 3
+
+ll.delete(2)
+ll.display()  # Output: 1 -> 4 -> 3
 
 
