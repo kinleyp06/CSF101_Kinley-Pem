@@ -10,5 +10,3 @@ Write a function that uses loops to calculate the nth Fibonacci number without r
 
 - Comment your code to explain the logic
 
-
-
