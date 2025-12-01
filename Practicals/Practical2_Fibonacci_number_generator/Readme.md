@@ -10,3 +10,9 @@ Write a function that uses loops to calculate the nth Fibonacci number without r
 
 - Comment your code to explain the logic
 
+### Recursive Implementation
+<img src = "image.png" alt="Alt text" width="300" height="200"> 
+
+### Iterative Implementation
+<img src = "image2.png" alt="Alt text" width="300" height="250"> 
+
