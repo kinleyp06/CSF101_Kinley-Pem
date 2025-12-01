@@ -1,4 +1,4 @@
-# Practical 8: Stacks and Queues - Reflection
+# Practical 3: Stacks and Queues - Reflection
 
 ## **Documentation**
 
