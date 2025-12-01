@@ -1,4 +1,4 @@
-# Practical 5: Implementing Linear and Binary Search Algorithms
+# Practical 6: Implementing Linear and Binary Search Algorithms
 
 ## Objective
 In this lab, you will implement both linear and binary search algorithms in Python. You'll learn about the differences between these search methods, their time complexities, and when to use each one. This exercise will help you practice algorithm implementation, list manipulation, and control structures in Python.
